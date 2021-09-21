@@ -1,0 +1,250 @@
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("../image/artistic-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: max-content;
+}
+
+.pink {
+    color: #de6581;
+}
+
+/* HEADER */
+header {
+    display: inline;
+    height: 175px;
+}
+
+header .jumbotron {
+    background-image: url("../image/header.png");				
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+
+nav {
+    clear: both;
+    display: block;
+    color: #ffffff;
+    background-color: #de6581;
+    padding: 5px 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover, 
+nav li a.current {
+    color: #444444;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    min-height: 800px;
+}
+
+section {
+    display: block;
+}
+
+section.content {
+    float: left;
+    width: 70%;
+}
+
+article {
+    clear: both;
+    display: block;
+    overflow: auto;
+    width: 100%;
+}
+
+/* ALL CONTENT */
+article h2 {
+    margin-left: 20px;
+}
+
+.content p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/* CONTENT: COURSES AND MENU */
+figure {
+    display: block;
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px 20px 10px 20px;
+    border: 1px solid #eeeeee;
+}
+
+figure img {
+    width: 288px;
+    height: 189px;
+}
+
+figcaption {
+    display: block;
+    font-size: 90%;
+    text-align: center;
+}
+
+hgroup {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.more {
+    float: right;
+    margin: 10px 20px 0px 0px;
+}
+
+.more a {
+    text-decoration: none;
+    color: #de6581;
+    
+}
+
+/* CONTENT: ABOUT AND CONTACT*/
+h2.top {
+    margin-top: 20px;
+}
+
+.container {
+    margin: 20px 20px 10px 20px;
+}
+
+.container iframe {
+    width: 605px;
+    height: 335px;
+    border: 0px;
+}
+
+/* CONTENT: CONTACT */
+#contact ul {
+    margin: 20px 0px;
+    padding-left: 40px;
+}
+
+li.contact-list {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+img.contact-image {
+    vertical-align: middle;
+    height: 24px;
+}
+
+a.contact-text {
+    color: #666666;
+    text-decoration: none;
+    margin-left: 10px;
+} 
+
+a.contact-text:hover {
+    font-weight: bolder;
+}
+
+a.contact-text:visited {
+    color: #666666;
+}
+
+#location a {
+    color: #de6581;
+    font-weight: bolder;
+}
+
+/* #location a.contact-text:hover {
+    font-weight: initial;
+} */
+/* ASIDE */
+aside {
+    width: 30%;
+    float: right;		
+    display: block;
+    padding: 0px 0px 0px 20px;
+    border-left: 1px solid #eeeeee;
+}
+
+aside h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+aside section a {
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #de6581;
+    font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
+    font-size: 80%;
+    text-align: center;
+    clear: both;
+    display: block;
+    color: #ffffff;
+    background-color: #de6581;
+    padding: 5px 0px;
+}
